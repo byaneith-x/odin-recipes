@@ -1,0 +1,45 @@
+    @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    :root {
+        font-size: 16px;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Redressed', cursive;
+    }
+body {
+    margin: auto;
+    width: 60%;
+    height: 100vh;
+    background-color: rgb(54, 131, 10);
+
+}
+    #title {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2rem;
+        font-size: 1.6rem;
+        color: rgb(255, 255, 255);
+    }
+    #recipes {
+        background-color: white;
+        color:  rgb(216, 231, 245);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 30vw;
+        height: 30vw;
+        border-radius: 50%;
+        margin: auto;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: rgb(231, 130, 15);
+}
